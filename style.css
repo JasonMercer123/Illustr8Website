@@ -1,0 +1,191 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4vw
+}
+
+h1 {
+    font-family: cursive sans-serif;
+    font-size: 3vw;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 250px;
+    right: 900px;
+    width: 300px;
+    border: 3px solid #000000;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #87CEFA;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container {
+    position: absolute;
+    right: 130px;
+    width: 400px;
+    height: 400px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 21px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+
+div.fixed {
+    border-radius: 25px;
+    border: 2px solid #A9A9A9;
+    padding: 20px;
+    width: 400px;
+    height: 225px;
+}
+
+div.relative {
+    position: relative;
+    border-radius: 25px;
+    left: 900px;
+    border: 2px solid #A9A9A9;
+    padding: 20px;
+    width: 400px;
+    height: 163px;
+    line-height: 1.6;
+}
+
+CSS .noScroll {
+    overflow: hidden;
+    position: fixed;
+}
+
+div.gallery {
+    transition: all .2s ease-in-out;
+}
+
+div.gallery:hover {
+    transform: scale(1.025);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: "Oswald";
+    color: white;
+    font-size: 20px;
+    text-shadow: -1px -1px 0 #000,
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
